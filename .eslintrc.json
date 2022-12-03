@@ -1,61 +1,46 @@
 {
-    "env": {
-        "browser": true,
-        "es2021": true
-    },
-    "settings": {
-        "react": {
-            "version": "detect"
-        }
-    },
-    "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended",
-        "plugin:react/jsx-runtime"
-    ],
-    "overrides": [],
-    "parserOptions": {
-        "ecmaVersion": "latest",
-        "sourceType": "module"
-    },
-    "plugins": [
-        "react"
-    ],
-    "rules": {
-        "indent": [
-            "error",
-            "tab",
-            {
-                "SwitchCase": 1
-            }
-        ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
-        "quotes": [
-            "error",
-            "double"
-        ],
-        "semi": [
-            "error",
-            "always"
-        ],
-        "comma-dangle": [
-            "error",
-            "always-multiline"
-        ],
-        "eol-last": [
-            "error",
-            "always"
-        ],
-        "object-curly-spacing": [
-            "error",
-            "always",
-            {
-                "arraysInObjects": true,
-                "objectsInObjects": true
-            }
-        ]
-    }
+	"env": {
+		"es2021": true,
+		"node": true
+	},
+	"extends": "eslint:recommended",
+	"overrides": [],
+	"parserOptions": {
+		"ecmaVersion": "latest",
+		"sourceType": "module"
+	},
+	"rules": {
+		"indent": [
+			"error",
+			"tab"
+		],
+		"linebreak-style": [
+			"error",
+			"unix"
+		],
+		"quotes": [
+			"error",
+			"double"
+		],
+		"semi": [
+			"error",
+			"always"
+		],
+		"comma-dangle": [
+			"error",
+			"always-multiline"
+		],
+		"eol-last": [
+			"error",
+			"always"
+		],
+		"object-curly-spacing": [
+			"error",
+			"always",
+			{
+				"arraysInObjects": true,
+				"objectsInObjects": true
+			}
+		]
+	}
 }

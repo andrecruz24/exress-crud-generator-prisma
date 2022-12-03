@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/andrecruz24/exress-crud-generator-prisma/issues"
   },
-  "homepage": "https://github.com/andrecruz24/exress-crud-generator-prisma#readme"
+  "homepage": "https://github.com/andrecruz24/exress-crud-generator-prisma#readme",
+  "devDependencies": {
+    "eslint": "^8.29.0"
+  }
 }
