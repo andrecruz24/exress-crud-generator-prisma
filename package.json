@@ -1,0 +1,25 @@
+{
+  "name": "express-crud-generator-prisma",
+  "version": "0.1.0",
+  "description": "A CRUD generator for an express app with prisma",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrecruz24/exress-crud-generator-prisma.git"
+  },
+  "keywords": [
+    "express",
+    "crud",
+    "generator",
+    "prisma"
+  ],
+  "author": "André Cruz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrecruz24/exress-crud-generator-prisma/issues"
+  },
+  "homepage": "https://github.com/andrecruz24/exress-crud-generator-prisma#readme"
+}
